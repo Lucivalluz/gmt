@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(189, 248, 228);
+    background-color: darkslategrey;
     font-family: 'Anton', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Oswald', sans-serif;
@@ -9,7 +9,8 @@ font-family: 'Roboto', sans-serif;
 input{
     border-radius: 10px;
     width: 250px;
-    height: 30px;
+    height: 40px;
+    background-color: #ffffff;
 }
 #cabeçario{
     width: 750px;
@@ -35,7 +36,29 @@ button{
     margin-left:720px;
     margin-top: 50px;
     margin-bottom: 50px;
-    color: rgb(88, 87, 87);
+    color: #bbbbc5;
+}
+.form{
+
+    margin-left: 50px;
+
+}
+.sol{
+    margin-top: 10px;
+}
+.abert{
+    margin-top: 10px;
+}
+.area{
+    margin-top: 10px;
+}
+label{
+    color: rgb(1, 10, 17);
+    font-size: 25px;
+}
+.oco, .pro, .desc{
+    width: 550px;
+    height: 250px;
 }
 
 

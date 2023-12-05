@@ -9,30 +9,45 @@
 </head>
 
 <body>
-    <img src="imagem/logo_.PNG" alt="Logo-Durit">
+    <img src="assets/logo.png" alt="Logo-Durit">
     <div id="cabeçario">
-    <h1>REQUISIÇÃO DE SERVIÇOS DE MANUTENÇÃO</h1>
-</div>
-<br>
-<br>
-<br>
+        <h1>REQUISIÇÃO DE SERVIÇOS DE MANUTENÇÃO</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="caixa"></div>
+    <form class="form" action="" method="get">
+        <label>
+            N° ORDEM DE SERVIÇO
+            <input class="ods" type="number" name="number">
 
-    <form action="" method="get">
+        </label>
+        <br>
+        <br>
+        <br>
+        <br>
+
         <label>
             SOLICITANTE:
-            <input type="text" name="nome" autocomplete="additional-name">
+            <input class="sol" type="text" name="nome" autocomplete="additional-name">
         </label>
         <label>
             DATA:
-            <input type="date" name="data">
+            <input class="date" type="date" name="data">
         </label>
+        <br>
+        <br>
+        <br>
+        <br>
+
         <label>
-            HORA DE ABERTURA:
-            <input type="time" name="hora de abertura">
+            H.ABERTURA:
+            <input class="abert" type="time" name="hora de abertura">
         </label>
         <label>
             PRIORIDADE:
-            <input type="text" name="prioridade" autocomplete="additional-name">
+            <input class="prio" type="text" name="prioridade" autocomplete="additional-name">
         </label>
         <br>
         <br>
@@ -41,15 +56,15 @@
 
         <label>
             ÁREA:
-            <input type="text" name="área" autocomplete="additional-name">
+            <input class="area" type="text" name="área" autocomplete="additional-name">
         </label>
         <label>
             EQUIPAMENTO:
-            <input type="text" name="equipamento" autocomplete="additional-name">
+            <input class="equi" type="text" name="equipamento" autocomplete="additional-name">
         </label>
         <label>
             TAG:
-            <input type="text" name="tag" autocomplete="additional-name">
+            <input class="tag" type="text" name="tag" autocomplete="additional-name">
         </label>
         <br>
         <br>
@@ -62,6 +77,8 @@
             <input type="date" name="data">
             <input type="time" name="inicio">
         </label>
+        <br>
+        <br>
         <br>
         <br>
         <label>
@@ -77,14 +94,14 @@
         <br>
         <label>
             OCORRÊNCIA:
-            <input type="text" name="ocorrência" autocomplete="additional-name">
+            <input class="oco" type="text" name="ocorrência" autocomplete="additional-name">
         </label>
         <br>
         <br>
         <br>
         <label>
-            IDENTIFCAÇÃO DO PROBLEMA E AÇÃO TOMADA:
-            <input type="text" name="ação" autocomplete="additional-name">
+            SOLUÇÃO:
+            <input class="pro" type="text" name="ação" autocomplete="additional-name">
         </label>
         <br>
         <br>
@@ -94,7 +111,7 @@
         <h2>MATERIAL UTILIZADO</h2>
         <label>
             DESCRIÇÃO:
-            <input type="text" name="descrição" autocomplete="additional-name">
+            <input class="desc" type="text" name="descrição" autocomplete="additional-name">
         </label>
         <br>
         <br>
@@ -103,9 +120,9 @@
 
 
 
-
-
     </form>
+
+
 
 </body>
 
