@@ -32,7 +32,7 @@ input{
     margin-left:720px;
     margin-top: 50px;
     margin-bottom: 50px;
-    color: wheat;
+    color: #edffa8;
 }
 .form{
 
@@ -49,7 +49,7 @@ input{
     margin-top: 10px;
 }
 label{
-    color: greenyellow;
+    color: #edffa8;
     font-size: 25px;
 }
 .oco, .pro, .desc{
@@ -87,7 +87,7 @@ label{
     margin-left: 120px;
 }
 .material{
-    color: greenyellow;
+    color: #edffa8;
 }
 .enviar{
     width: 300px;
