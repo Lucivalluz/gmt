@@ -110,17 +110,17 @@ label{
     }
     .sgestao{
         font-family: anton;
-        font-size: 30px;
-             
+        font-size: 23px;
+        margin-left: 45px;     
         color: #edffa8;
-        width: 300px;
+        width: 320px;
     }
     .meny{
-        margin-left: 10px;
+        margin-left: 0px;
         margin-top: 40px;
     }
     .logodur{
-        width: 160px;
+        width: 130px;
         margin-left: 120px;
 
     }
