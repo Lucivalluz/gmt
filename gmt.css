@@ -106,7 +106,7 @@ label{
 
     .menu{
         width: 170px;
-        margin-left: 50px;
+        
        
     }
     .sgestao{
@@ -117,8 +117,8 @@ label{
         width: 320px;
     }
     .meny{
-        margin-left: 0px;
-        margin-top: 40px;
+        margin-left: 40px;
+        margin-top: 45px;
     }
     .logodur{
         width: 130px;
