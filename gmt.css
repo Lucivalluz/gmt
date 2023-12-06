@@ -105,22 +105,67 @@ label{
 @media screen and (max-width:700px) {
 
     .menu{
-        width: 120px;
+        width: 170px;
        
     }
     .sgestao{
         font-family: anton;
-        font-size: 20px;
-        margin-left:30px;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        font-size: 30px;
+             
         color: #edffa8;
-        width: 500px;
+        width: 300px;
     }
     .meny{
         margin-left: 10px;
         margin-top: 40px;
     }
+    .logodur{
+        width: 160px;
+        margin-left: 120px;
+
+    }
+    .req{
+        margin-top: 100px;
+        margin-left: -450px;
+        font-size: 15px;
+    }
+    .ods,{
+        margin-left: 0px;
+    }
+    .odss, .soll, .abertt, .prioo, .equii, .tagg, .iniservv, .fimservv, .datee, .areaa{
+        font-size: 18px;
+    }
+    input{
+        border-radius: 10px;
+        width: 180px;
+        height: 40px;
+        background-color: #ffffff;
+    }
+    .form{
+
+        margin-left: 5px;
+    
+    }
+    .ods, .sol, .abert, .prio, .area, .equi, .tag, .iniserv, .fimserv, .date{
+        margin-left: 0px;
+    }
+    .iniserv{
+       width: 100px;
+    }
+    .fimserv{
+        width: 100px;
+    }
+    .oco, .pro, .desc{
+        width: 350px;
+        height: 250px;
+    }
+    .enviar{
+        width: 300px;
+        height: 80px;
+        font-size: 25px;
+        background-color: darkslategrey;
+        margin-left: 50px;
+        
     
 }
 
