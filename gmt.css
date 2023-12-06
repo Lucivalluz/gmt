@@ -102,10 +102,10 @@ label{
 
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
 
     .menu{
-        width: 160px;
+        width: 170px;
        
     }
     .sgestao{
