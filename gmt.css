@@ -129,8 +129,8 @@ label{
     }
     .req{
         margin-top: 100px;
-        margin-left: -450px;
-        font-size: 15px;
+        margin-left: -470px;
+        font-size: 13px;
     }
     .ods,{
         margin-left: 0px;
@@ -140,7 +140,7 @@ label{
     }
     input{
         border-radius: 10px;
-        width: 180px;
+        width: 170px;
         height: 40px;
         background-color: #ffffff;
     }
@@ -150,7 +150,7 @@ label{
     
     }
     .ods, .sol, .abert, .prio, .area, .equi, .tag, .iniserv, .fimserv, .date{
-        margin-left: 0px;
+        margin-left: -5px;
     }
     .iniserv{
        width: 100px;
@@ -159,15 +159,15 @@ label{
         width: 100px;
     }
     .oco, .pro, .desc{
-        width: 350px;
-        height: 250px;
+        width: 300px;
+        height: 200px;
     }
     .enviar{
-        width: 300px;
+        width: 200px;
         height: 80px;
         font-size: 25px;
         background-color: darkslategrey;
-        margin-left: 50px;
+        margin-left: 70px;
         
     
 }
