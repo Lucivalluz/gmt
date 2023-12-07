@@ -105,16 +105,17 @@ label{
 @media screen and (max-width:800px) {
 
     .menu{
-        width: 170px;
+        width: 100px;
+        margin-left: 5px;
         
        
     }
     .sgestao{
         font-family: anton;
-        font-size: 23px;
-        margin-left: 45px;     
+        font-size: 16px;
+        margin-left: 40px;     
         color: #edffa8;
-        width: 320px;
+        width: 220px;
     }
     .meny{
         margin-left: 40px;
