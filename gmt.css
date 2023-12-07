@@ -105,7 +105,7 @@ label{
 @media screen and (max-width:640px) {
 
     .menu{
-        width: 100px;
+        width: 140px;
         margin-left: 5px;
         
        
@@ -118,7 +118,7 @@ label{
         width: 220px;
     }
     .meny{
-        margin-left: 40px;
+        margin-left: 30px;
         margin-top: 45px;
     }
     .logodur{
