@@ -124,13 +124,16 @@ label{
     }
     .logodur{
         width: 130px;
-        margin-left: 120px;
+        margin-left: 115px;
+        display: block;
 
     }
     .req{
         margin-top: 100px;
-        margin-left: -470px;
-        font-size: 13px;
+       margin-left: -430px;
+        font-size: 17px;
+        width: 250px;
+
     }
     .ods,{
         margin-left: 0px;
