@@ -8,28 +8,55 @@ font-family: 'Roboto', sans-serif;
 }
 input{
     border-radius: 10px;
-    width: 250px;
-    height: 40px;
+    width: 150px;
+    height: 30px;
     background-color: #ffffff;
 }
 #cabeçario{
-    width: 750px;
-    margin-left: 480px;
-    margin-top: -80px;
+    display: flex;
 }
+.logodur {
+    width: 150px;
+    height: 100px;
+}
+.req{
+    color: #edffa8;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 800px;
+   
+}
+.odss {
+    color: #edffa8;
+    font-size: 20px;
+    margin-left: -90px;
+   
+}
+.ods {
+    width: 100px;
+
+}
+.label {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+   
+}
+
 
 .menu{
     width: 210px;
     margin-left: 20px;
 }
 .meny{
-    margin-left: 750px;
+    margin-left: 350px;
     margin-top: 100px;
 }
 .sgestao{
     font-family: anton;
     font-size: 40px;
-    margin-left:720px;
+    margin-left:320px;
     margin-top: 50px;
     margin-bottom: 50px;
     color: #edffa8;
@@ -56,29 +83,37 @@ label{
     width: 550px;
     height: 250px;
 }
-.ods, .sol, .abert{
-    margin-left: 60px;
+
+.label-sol, .label-dat, .label-abert, .label-pri, .label-area {
+    display: flex;
 }
+
 .sol{
-    margin-left: 140px;
+    margin-left: 20px;
+    margin-top: 10px;
+   
 }
+ 
 .date{
-    margin-left: 210px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 .abert{
-    margin-left: 140px;
+    margin-left: 20px;
 }
 .prio{
-    margin-left: 140px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 .area{
-    margin-left: 210px;
+    margin-left: 20px;
 }
 .equi{
-    margin-left: 110px;
+    margin-left: 130px;
+    
 }
 .tag{
-    margin-left: 225px;
+    margin-left: 40px;
 }
 .iniserv{
     margin-left: 100px;
@@ -96,9 +131,31 @@ label{
     background-color: darkslategrey;
     
 }
-.req{
-    color: #edffa8;
+.caixa1 {
+    display: flex;
+    gap: 20px;
+    
 }
+.soll, .datee, .abertt, .prioo, .areaa, .equii, .tagg, .iniservv, .fimservv  {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.caixa2 {
+    display: flex;
+    gap: 10px;
+}
+.label-inicio {
+    display: flex;
+    
+}
+.equii {
+    padding-top: 50px;
+}
+
+
+
+
+
 
 
 

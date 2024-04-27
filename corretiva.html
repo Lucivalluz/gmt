@@ -9,31 +9,32 @@
 </head>
 
 <body>
-    <img class="logodur" src="assets/logo.png" alt="Logo-Durit">
+    
     <div id="cabeçario">
+        <img class="logodur" src="assets/logo.png" alt="Logo-Durit">
         <br>
-        <h1 class="req">MANUTENÇÃO CORRETIVA</h1>s
-    </div>
-    <br>
-    <br>
-    <br>
-    <div class="caixa"></div>
-    <form class="form" action="" method="get">
-        <label>
+        <h1 class="req">REQUISIÇÃO DE SERVIÇOS DE MANUTENÇÃO</h1>
+        <label class="label">
             <b class="odss">Ordem de Serviço</b>
             <input class="ods" type="number" name="number">
 
         </label>
+    </div>
+    <br>
+    <br>
+    <br>
+   
+    <form class="form" action="" method="get">
         <br>
         <br>
         <br>
         <br>
-
-        <label>
+        <div class="caixa1">
+        <label class="label-sol">
             <b class="soll">Solicitante</b>
             <input class="sol" type="text" name="nome" autocomplete="additional-name">
         </label>
-        <label>
+        <label class="label-dat">
             <br>
             <br>
 
@@ -45,13 +46,13 @@
         <br>
         <br>
 
-        <label>
+        <label class="label-abert">
             <b class="abertt">H.abertura</b>
             <input class="abert" type="time" name="hora de abertura">
         </label>
         <br>
         <br>
-        <label>
+        <label class="label-pri">
             <b class="prioo">Prioridade</b>
             <input class="prio" type="text" name="prioridade" autocomplete="additional-name">
         </label>
@@ -60,12 +61,15 @@
         <br>
         <br>
 
-        <label>
+        <label class="label-area">
             <b class="areaa">Área</b>
             <input class="area" type="text" name="área" autocomplete="additional-name">
         </label>
+
+    </div>
         <br>
         <br>
+        <div class="caixa2">
         <label>
             <b class="equii">Equipamento</b>
             <input class="equi" type="text" name="equipamento" autocomplete="additional-name">
@@ -82,7 +86,7 @@
         <br>
         <br>
         <br>
-        <label>
+        <label class="label-inicio">
             <b class="iniservv">Inicio Serviço</b>
             <input class="iniserv" type="date" name="data">
             <input class="iniserv" type="time" name="inicio">
@@ -96,6 +100,7 @@
             <input class="fimserv" type="date" name="data">
             <input class="fimserv" type="time" name="inicio">
         </label>
+    </div>
         <br>
         <br>
         <br>
