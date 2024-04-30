@@ -116,19 +116,20 @@ label{
     
 }
 .tag{
-    margin-left: 10px;
+    margin-left: 20px;
     width: 100px;
     height: 30px;
 }
 .iniserv{
-    margin-left: 30px;
-    width: 80px;
+    margin-left: 10px;
+    width: 100px;
     height: 30px;
 }
 .fimserv{
     margin-left: 10px;
     width: 100px;
     height: 30px;
+    
 }
 .material{
     color: #edffa8;
@@ -146,13 +147,12 @@ label{
     margin-left: -50px;
     
 }
-.soll, .datee, .abertt, .prioo, .areaa, .tagg, .fimservv  {
+.soll, .datee, .abertt, .prioo, .areaa, .tagg {
     font-size: 18px;
     margin-top: 20px;
 }
 .caixa2 {
     display: flex;
-    gap: 10px;
     margin-left: -50px;
 }
 .label-inicio {
@@ -163,21 +163,25 @@ label{
 }
 .label-fim {
     display: flex;
-    gap: -5px;
-    width: 150px;
+    width: 450px;
     
 }
 .equii {
    font-size: 18px;
 }
 .iniservv {
-    font-size: 16px;
+    font-size: 18px;
     width: 150px;
+    margin-top: 20px;
+    margin-left: 30px;
+   
 }
 .fimservv  {
     font-size: 18px;
     margin-top: 20px;
     margin-left: 10px;
+    width: 200px;
+    
 }
 
 
