@@ -77,10 +77,14 @@ input{
 }
 label{
     color: #edffa8;
-    font-size: 25px;
+    font-size: 18px;
+}
+.fechamento {
+    display: flex;
+    gap: 10px;
 }
 .oco, .pro, .desc{
-    width: 550px;
+    width: 350px;
     height: 250px;
 }
 
@@ -88,7 +92,7 @@ label{
     display: flex;
 }
 
-.sol{
+.sol{   vb 
     margin-left: 10px;
     margin-top: 10px;
    
@@ -131,14 +135,16 @@ label{
     height: 30px;
     
 }
-.material{
+.material, b {
     color: #edffa8;
+    font-size: 18px;
 }
 .enviar{
     width: 300px;
     height: 80px;
     font-size: 25px;
     background-color: darkslategrey;
+    margin-left: 550px;
     
 }
 .caixa1 {
