@@ -82,6 +82,14 @@ label{
 .fechamento {
     display: flex;
     gap: 10px;
+    margin-top: -20px;
+}
+.ocorren, .soluç, .mater {
+    margin-left: 110px;
+}
+.label-ocorrencia, .label-solucao, .label-material {
+    display: flex;
+    flex-direction: column;
 }
 .oco, .pro, .desc{
     width: 350px;
@@ -92,8 +100,8 @@ label{
     display: flex;
 }
 
-.sol{   vb 
-    margin-left: 10px;
+.sol{   
+    margin-left: 20px;
     margin-top: 10px;
    
 }
@@ -114,24 +122,27 @@ label{
 }
 .equi{
     margin-left: 10px;
-    width: 100px;
+    width: 115px;
     height: 30px;
     margin-top: -150px;
     
 }
 .tag{
-    margin-left: 20px;
-    width: 100px;
+    margin-left: 10px;
+    width: 115px;
     height: 30px;
+}
+.tagg {
+    margin-left: 20px;
 }
 .iniserv{
     margin-left: 10px;
-    width: 100px;
+    width: 130px;
     height: 30px;
 }
 .fimserv{
     margin-left: 10px;
-    width: 100px;
+    width: 130px;
     height: 30px;
     
 }
@@ -144,7 +155,7 @@ label{
     height: 80px;
     font-size: 25px;
     background-color: darkslategrey;
-    margin-left: 550px;
+    margin-left: 450px;
     
 }
 .caixa1 {
@@ -174,10 +185,11 @@ label{
 }
 .equii {
    font-size: 18px;
+   
 }
 .iniservv {
     font-size: 18px;
-    width: 150px;
+    width: 120px;
     margin-top: 20px;
     margin-left: 30px;
    
@@ -186,7 +198,7 @@ label{
     font-size: 18px;
     margin-top: 20px;
     margin-left: 10px;
-    width: 200px;
+    width: 110px;
     
 }
 
